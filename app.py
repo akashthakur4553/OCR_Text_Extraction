@@ -5,7 +5,7 @@ from pytesseract import image_to_string
 import pytesseract
 
 # Configure the path to Tesseract
-# pytesseract.pytesseract.tesseract_cmd = "Tesseract-OCR/tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "Tesseract-OCR/tesseract.exe"
 
 st.set_page_config(layout="wide")
 
